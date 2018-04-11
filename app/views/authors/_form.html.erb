@@ -12,16 +12,16 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
+    <label>Nome</label>
     <%= form.text_field :name, id: :author_name %>
   </div>
 
   <div class="field">
-    <%= form.label :age %>
+    <label>Idade</label>
     <%= form.number_field :age, id: :author_age %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <input name="commit" value="Enviar" data-disable-with="Enviar" type="submit">
   </div>
 <% end %>
